@@ -10,9 +10,9 @@ const FeaturedPosts = () => {
         <img src="featured1.jpeg" className="rounded-3xl object-cover" />
         {/* details */}
         <div className="flex items-center gap-4">
-          <h1 className="text-blue-800 lg:text-lg">0.1</h1>
-          <Link className="text-gray-500">Web Design</Link>
-          <span>2 days ago</span>
+          <h1 className="font-semibold lg:text-lg">0.1</h1>
+          <Link className="text-blue-800 lg:text-lg">Web Design</Link>
+          <span className="text-gray-500">2 days ago</span>
         </div>
         {/*title  */}
         <Link
@@ -24,6 +24,16 @@ const FeaturedPosts = () => {
       </div>
       {/* Other */}
       <div className="w-full lg:w-1/2 flex flex-col gap-4"></div>
+      {/* Second */}
+      <div className="lg:h-1/3 flex justify-between gap-4">
+        <img src="featured2.jpeg" className="rounded-3xl object-cover w-1/3" />
+      </div>
+      {/* details and title */}
+      <div className="w-2/3"></div>
+      {/* third */}
+      <div className="lg:h-1/3 flex justify-between gap-4"></div>
+      {/* fourth */}
+      <div className="lg:h-1/3 flex justify-between gap-4"></div>
     </div>
   );
 };
